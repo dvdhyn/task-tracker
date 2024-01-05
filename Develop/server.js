@@ -3,7 +3,7 @@ const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
 const bodyParser = require('body-parser');
 const app = express();
-const port = 3001;
+const PORT = process.env.PORT || 3001;
 
 app.use(express.static('public'));
 
@@ -56,6 +56,6 @@ app.post('/api/notes', (req, res) => {
   });
 });
 
-app.listen(port, () => {
-  console.log(`Server is listening at http://localhost:${port}`);
+app.listen(PORT, () => {
+  console.log(`Server is listening at http://localhost:${PORT}`);
 });
