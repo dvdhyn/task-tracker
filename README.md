@@ -37,6 +37,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 ## Deployment
 https://boiling-savannah-32772-3ee8ac76a727.herokuapp.com/
 
+![note-taker](https://github.com/dvdhyn/task-tracker/assets/145178667/ac36b645-6b0e-440e-8317-0ce58745a2d7)
 
 ## Notes
 For this module challenge, we were given starter code. Solution was made through reviewing course material in Module 11.
